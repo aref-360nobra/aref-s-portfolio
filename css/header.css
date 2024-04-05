@@ -52,7 +52,24 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url("./../img/header_bg.png");
+    background: url("./../img/header_bg.png"), url("./../img/Developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, bottom left;
+    background-size: 65%, 5% 100%;
+}
+
+.banner_content {
+    max-width: 585px;
+}
+
+.banner_title {
+    font-size: 85px;
+}
+
+.banner_greeting {
+    font-size: 45px;
+}
+
+.banner_description {
+    font-size: 18px;
 }
