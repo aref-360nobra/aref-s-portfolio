@@ -40,7 +40,34 @@ main {
     text-align: center;
 }
 
-.about_info .info_description{
+.about_info .info_description {
     cursor: pointer;
 }
 
+.about_info .info_title {
+    cursor: context-menu;
+}
+
+#what_I_do_description {
+    margin: 30px 150px;
+}
+
+.skills_container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.skill {
+    border: 1px solid #22eeaa;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px #0000000f;
+    background: #ffffff;
+}
+
+.skill_description {
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
