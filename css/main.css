@@ -14,7 +14,7 @@
     font-size: 35px;
     line-height: 48px;
     text-align: center;
-    margin-top: 130px;
+    /* margin-top: 130px; */
 }
 
 .section_description {
@@ -71,4 +71,45 @@ main {
 .skill_description {
     margin-top: 20px;
     margin-bottom: -30px;
+}
+
+/* a summery of my resume */
+
+.resume_container {
+    display: flex;
+    gap: 70px;
+}
+
+.resume_column_title {
+    color: #333;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.resume_column_description {
+    color: #222;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 511px;
+}
+
+.mb_113px {
+    margin: 113px;
+}
+
+.resume_column {
+    background-color: #e8fdf6;
+    padding: 30px;
+    border: 1px solid #22eeaa;
+    border-radius: 25px 0 25px 0;
+}
+
+.download_cv {
+    text-align: center;
+    margin-top: 50px;
 }
