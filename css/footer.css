@@ -1,0 +1,44 @@
+footer {
+    background: #e8fdf6;
+    display: flex;
+    padding: 130px 230px;
+    gap: 120px;
+    margin-top: 100px;
+}
+
+.footer_column {
+    width: 50%;
+}
+
+.social_links {
+    display: inline-flex;
+    gap: 25px;
+    font-size: 24px;
+    justify-content: space-between;
+}
+
+footer .section_description {
+    text-align: left;
+}
+
+footer .section_title {
+    margin-bottom: 28px;
+}
+
+form input,
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+form input[type="text"],
+form input[type="email"],
+textarea {
+    width: 100%;
+}
