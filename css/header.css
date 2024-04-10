@@ -1,7 +1,8 @@
 /* nav styles*/
 
 nav {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     align-items: center;
     margin: 0px 200px;
