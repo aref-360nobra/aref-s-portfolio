@@ -42,9 +42,6 @@ header {
 .profile_pic {
     width: 500px;
     height: 500px;
-    /* background: url("./../img/header_bg.png");
-    background-repeat: no-repeat;
-    background-position: bottom right; */
 }
 
 .banner {
@@ -63,11 +60,11 @@ header {
 }
 
 .banner_title {
-    font-size: 85px;
+    font-size: 4rem;
 }
 
 .banner_greeting {
-    font-size: 45px;
+    font-size: 1.5rem;
 }
 
 .banner_description {
@@ -82,10 +79,6 @@ header {
     }
 
     nav {
-        flex-direction: column;
-    }
-
-    nav>ul{
-        text-align: center;
+        display: none;
     }
 }
