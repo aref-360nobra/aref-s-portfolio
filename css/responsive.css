@@ -1,0 +1,163 @@
+/* mobile devices */
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:20px) and (min-width:0px) {
+    * {
+        visibility: hidden;
+    }
+}
+
+
+@media screen and (max-width:576px) and (min-width:20px) {
+
+    .banner {
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+
+    .profile_pic {
+        height: 115%;
+        width: 115%;
+        margin-top: 2rem;
+    }
+
+    .btn_container {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .skills_container {
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    #what_I_do_description {
+        margin: 30px 20px;
+        padding-bottom: 2rem;
+    }
+
+    .resume_container {
+        flex-direction: column;
+        margin: 0 1.25rem;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 30px 50px;
+    }
+
+    footer .section_title {
+        font-size: 2rem;
+    }
+
+    .footer_column {
+        width: 100%;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    textarea {
+        width: 70%;
+    }
+
+    footer .section_description {
+        text-align: center;
+    }
+
+    .social_links {
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about {
+        padding: 30px;
+        margin: 2rem 1rem;
+    }
+
+    .about_info_container {
+        flex-direction: column;
+
+    }
+
+    .info_description {
+        font-size: medium;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .banner {
+        background: none;
+    }
+
+
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    .skills_container {
+        flex-wrap: wrap;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    #what_i_do_description {
+        padding: 30px 50px;
+    }
+
+    .resume_container {
+        flex-direction: column;
+        margin: 0 2rem;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 30px 50px;
+    }
+
+    footer .section_title {
+        font-size: 2rem;
+    }
+
+    .footer_column {
+        width: 100%;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    .contact textarea {
+        width: 70%;
+    }
+
+    footer .section_description {
+        text-align: center;
+    }
+
+    .social_links {
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about {
+        padding: 30px;
+        margin: 0 2rem;
+    }
+
+    .about_info_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2rem;
+    }
+
+    nav {
+        display: none;
+    }
+}

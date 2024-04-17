@@ -79,6 +79,7 @@ main {
 .resume_container {
     display: flex;
     gap: 70px;
+    flex-wrap: wrap;
 }
 
 .resume_column_title {
@@ -96,7 +97,8 @@ main {
     line-height: 28px;
     letter-spacing: 0%;
     text-align: left;
-    width: 511px;
+    max-width: 32.15rem;
+    height: auto;
 }
 
 .mb_113px {
@@ -117,47 +119,4 @@ main {
 
 .hide {
     display: none;
-}
-
-@media screen and (max-width:576px) {
-
-    .about,
-    #what_I_do_description {
-        padding: 1rem;
-        margin: 2.25rem 10%;
-
-    }
-
-    .btn_container,
-    .about_info_container {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        gap: 10px;
-        width: 80%;
-    }
-
-    .skills_container {
-        flex-direction: column;
-        margin: 2rem;
-    }
-
-    .skill_description {
-        padding-bottom: 30px;
-    }
-
-    .mb_113px {
-        margin-bottom: 2rem;
-    }
-
-    .resume_container {
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin: 1.25rem;
-    }
-
-    .a_summery_of_my_resume {
-        width: 100%;
-    }
-
 }

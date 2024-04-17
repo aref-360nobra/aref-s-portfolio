@@ -42,10 +42,3 @@ form input[type="email"],
 textarea {
     width: 100%;
 }
-
-@media screen and (max-width:576px) {
-    footer {
-        flex-direction: column;
-        padding: 2.5rem
-    }
-}
