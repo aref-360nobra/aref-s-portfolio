@@ -79,7 +79,6 @@ main {
 .resume_container {
     display: flex;
     gap: 70px;
-    flex-wrap: wrap;
 }
 
 .resume_column_title {
