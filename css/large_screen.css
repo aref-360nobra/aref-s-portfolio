@@ -1,8 +1,0 @@
-@media screen and (max-width:1440px) {
-
-    form input[type="text"],
-    form input[type="email"],
-    textarea {
-        width: 80%;
-    }
-}
