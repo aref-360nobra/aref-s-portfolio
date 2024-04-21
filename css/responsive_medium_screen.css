@@ -1,0 +1,60 @@
+@media screen and (min-width:576px) and (max-width:960px) {
+    .skills_container {
+        flex-wrap: wrap;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    #what_i_do_description {
+        padding: 30px 50px;
+    }
+
+    .resume_container {
+        flex-direction: column;
+        margin: 0 2rem;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 30px 50px;
+    }
+
+    footer .section_title {
+        font-size: 2rem;
+    }
+
+    .footer_column {
+        width: 100%;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    .contact textarea {
+        width: 70%;
+    }
+
+    footer .section_description {
+        text-align: center;
+    }
+
+    .social_links {
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about {
+        padding: 30px;
+        margin: 0 2rem;
+    }
+
+    .about_info_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2rem;
+    }
+
+    nav {
+        display: none;
+    }
+}
