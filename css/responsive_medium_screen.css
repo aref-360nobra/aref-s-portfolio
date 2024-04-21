@@ -1,8 +1,21 @@
 @media screen and (min-width:576px) and (max-width:960px) {
+    .banner {
+        flex-direction: column;
+    }
+
+    .profile_pic {
+        margin-left: 5.5rem;
+    }
+
+    .btn_container {
+        margin: 2rem 0;
+    }
+
     .skills_container {
         flex-wrap: wrap;
         margin-left: 1rem;
         margin-right: 1rem;
+        align-content: center;
     }
 
     #what_i_do_description {
@@ -45,7 +58,7 @@
 
     .about {
         padding: 30px;
-        margin:  2rem;
+        margin: 2rem;
     }
 
     .about_info_container {
