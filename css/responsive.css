@@ -102,6 +102,18 @@
         margin: 30px;
     }
 
+    .banner_title,
+    .banner_greeting,
+    .banner_description,
+    .profile_pic,
+    .btn_container {
+        margin-left: -6.5rem;
+    }
+
+    .btn_container {
+        margin-top: 2rem;
+    }
+
 }
 
 @media screen and (min-width:576px) and (max-width:960px) {
